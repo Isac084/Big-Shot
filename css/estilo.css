@@ -22,9 +22,15 @@ header{
     border-radius: 25px;
     box-shadow: 0 2px 8px rgba(30, 126, 150, 0.938);
 }
+#logo2{
+    width: 30%;
+    display: flex;
+    justify-content:center;
+}
 #banner{
     display: flex;
     flex-wrap: wrap;
+    justify-content:center;
     width: 70%;
     background-color:rgb(118, 183, 192);
     border-radius: 25px;
@@ -50,6 +56,10 @@ ul li{
     
     
 }
+ul li a: hover{
+    background-color: rgb(30, 126, 150);
+    color: white;
+}
 #conteudo{
     display:flex;
     margin: 1vh;
@@ -70,6 +80,12 @@ ul li{
 #linha1 p{
     margin: 1vw;
     
+}
+#linha1 p:hover{
+    box-shadow: 0 2px 8px rgba(30, 126, 150, 0.938);
+}
+#linha2 p:hover{
+    box-shadow: 0 2px 8px rgba(30, 126, 150, 0.938);
 }
 #linha2{
     display:flex;
@@ -147,6 +163,9 @@ footer{
     padding-left: 40px;
     padding-right: 40px;
 }
+#textoprincipal p:hover{
+    box-shadow: 0 2px 8px rgba(30, 126, 150, 0.938);
+}
 
 #menu{
     width: 20vw;
@@ -200,7 +219,7 @@ footer{
   }
   
   .accordion-toggle {
-    background-color: #00bcd4;
+    background-color: #0eb9cf;
     color: white;
     border: none;
     padding: 10px 16px;
@@ -238,3 +257,16 @@ footer{
     
     
   }
+
+li a {
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(30, 126, 150, 0.938);
+}
+
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
