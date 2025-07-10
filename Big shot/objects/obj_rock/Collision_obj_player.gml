@@ -1,0 +1,1 @@
+//global.vezes_jg+=1

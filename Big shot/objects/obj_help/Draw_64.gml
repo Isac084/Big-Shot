@@ -1,0 +1,6 @@
+draw_set_font(fnt_menu)
+draw_set_color(c_white)
+draw_text(400, 200, "Controles: ")
+draw_text(400, 310, "W A S D")
+draw_text(150, 400, "Botao esquerdo do mouse atira")	
+draw_text(150, 500, "Jogue para ver a media")

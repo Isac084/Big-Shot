@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"tenna_battle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":165.4054,
+  "name":"tenna_battle",
+  "parent":{
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"tenna_battle.ogg",
+  "type":0,
+  "volume":1.0,
+}
